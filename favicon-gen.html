@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+<canvas id="c" width="512" height="512"></canvas>
+<script>
+const img = new Image();
+img.onload = function() {
+  const canvas = document.getElementById('c');
+  const ctx = canvas.getContext('2d');
+  // Image is portrait - crop to upper-center square (face area)
+  const srcSize = Math.min(img.naturalWidth, img.naturalHeight);
+  const srcX = (img.naturalWidth - srcSize) / 2;
+  const srcY = 0; // start from top to get face
+  ctx.drawImage(img, srcX, srcY, srcSize, srcSize, 0, 0, 512, 512);
+  document.title = 'done';
+};
+img.src = 'victor.jpg';
+</script>
+</body>
+</html>

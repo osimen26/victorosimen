@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx playwright *)",
+      "Bash(vercel --version)",
+      "Bash(git --version)",
+      "Bash(Copy-Item \"C:\\\\Users\\\\USER\\\\Desktop\\\\my website portfolio\\\\victor_portfolio \\(12\\).html\" \"C:\\\\Users\\\\USER\\\\Desktop\\\\my website portfolio\\\\index.html\")",
+      "Bash(vercel --yes --prod --name victor-osimen-portfolio)",
+      "Bash(vercel --yes --prod)",
+      "Bash(node -e ' *)",
+      "PowerShell(Copy-Item \"C:\\\\Users\\\\USER\\\\Desktop\\\\my website portfolio\\\\favicon-raw.png\" \"C:\\\\Users\\\\USER\\\\Desktop\\\\my website portfolio\\\\favicon.png\")"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\USER\\Desktop\\my website portfolio"
+    ]
+  }
+}
