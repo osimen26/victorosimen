@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/resume",
-      "destination": "/Osimen_Victor_CV.pdf"
+      "destination": "/OSIMEN_VICTOR_CV_compressed.pdf"
     }
   ],
   "headers": [
@@ -20,7 +20,7 @@
       "headers": [
         { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
         { "key": "Content-Type", "value": "application/pdf" },
-        { "key": "Content-Disposition", "value": "inline; filename=\"Osimen_Victor_CV.pdf\"" }
+        { "key": "Content-Disposition", "value": "inline; filename=\"OSIMEN_VICTOR_CV_compressed.pdf\"" }
       ]
     },
     {
